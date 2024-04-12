@@ -1,0 +1,20 @@
+server:
+  port: 7010
+
+  # mybatis 配置
+mybatis:
+  type-aliases-package: com.lxg.entity
+  mapper-locations: classpath:/mapper/*.xml
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    click:
+      driverClassName: ru.yandex.clickhouse.ClickHouseDriver
+      url: jdbc:clickhouse://183.6.36.232:18123/hqxs2023052
+      username: user_monitor_st
+      password: user_monitor_st
+      initialSize: 10
+      maxActive: 100
+      minIdle: 10
+      maxWait: 6000
