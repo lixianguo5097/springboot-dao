@@ -1,9 +1,12 @@
-## MQTT配置
-config:
-  mqtt:
-    host: tcp://192.168.56.104:18083
-    clientid: client_test
+mqtt:
+    hostUrl: tcp://192.168.56.104:1883
     username: admin
     password: hqxkj168++
-    timeout: 2000
-    keepalive: 20
+    client-id: equipment_main
+    cleanSession: true
+    reconnect: true
+    timeout: 100
+    keepAlive: 100
+    defaultTopic: client:report:1
+    isOpen: true
+    qos: 1

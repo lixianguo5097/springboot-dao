@@ -19,4 +19,5 @@ springboot-multiDatasource2:使用MybatisPlus实现多数据源\
 springboot-alipay:整合支付宝电脑网页支付\
 springboot-limit:整合限流\
 springboot-postgre:整合mybatis-plus+postgresql,实现存储数组类型字段\
-springboot-clickhouse:整合mybatis-plus+clickhouse
+springboot-clickhouse:整合mybatis-plus+clickhouse\
+springboot-mqtt:安装emqx使用mqtt协议进行消息发布订阅\
